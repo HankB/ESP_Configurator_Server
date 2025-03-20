@@ -37,4 +37,4 @@ Where
 
 ## 2025-03-19 Language
 
-Almost any language which supports access to network communications and as Sqlite database could be used. This could be easily accomplished using a bash script that shells out to`netcat`, `sqlite3` and `awk`, `sed`, grep or similar to parse the messages. A more interesting language might be `golang` or `Rust`.
+Almost any language which supports access to network communications and as Sqlite database could be used. This could be easily accomplished using a bash script that shells out to`netcat`, `sqlite3` and `awk`, `sed`, grep or similar to parse the messages. A more interesting language might be `golang` or `Rust`. To entertain the notion that the implementatin language could vary, code will be produced in a subdirectory, starting with `rust`.
