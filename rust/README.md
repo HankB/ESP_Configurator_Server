@@ -89,3 +89,7 @@ Using `netcat` (ref: <https://stackoverflow.com/questions/13294893/broadcasting-
 ```text
 echo -n "request-config|b827eb4f1eb7" | nc -u -b -q 0 255.255.255.255 5016
 ```
+
+## 2029-03-21 test with ESP
+
+With the ESP coded to broacdcast the configuration request, the rust server has been tested to confirm that it receives the message.
