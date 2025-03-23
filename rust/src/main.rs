@@ -13,15 +13,15 @@ fn main() -> std::io::Result<()> {
             Ok(v) => v,
             Err(e) => panic!("Invalid UTF-8 sequence: {}", e),
         };
-        println!("amt:{} src:{} s:{}\n", amt, src, s);
+        println!("amt:{} src:{} s:{}", amt, src, s);
         let parts = s.split("|");
         //for part in parts {
             //println!("{}", part)
         //}
         let collection = parts.collect::<Vec<&str>>();
         dbg!(&collection);
-        println!("\n{:?}\n", collection[1]);
-        
+        println!("mac: {}", collection[1]);
+
     } // the socket is closed here
     Ok(())
 }
